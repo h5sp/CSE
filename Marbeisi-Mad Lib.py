@@ -1,0 +1,11 @@
+print("Don't enter the basement!")
+
+print("Mommy told me never to go in the basement, but I wanted to see what ")
+print("was making that noise. It kind of sounded like a puppy, and I wanted ")
+print("to see the puppy, so I opened the basement door and tiptoed down a")
+print("bit. I didn’t see a puppy, and then Mommy yanked me out of the")
+print("basement and yelled at me. Mommy had never yelled at me before,")
+print("and it made me sad and I cried. Then Mommy told me never to go into ")
+print("the basement again, and she gave me a cookie. That made me feel ")
+print("better, so I didn’t ask her why the boy in the basement was making ")
+print("noises like a puppy, or why he had no hands or feet.")
