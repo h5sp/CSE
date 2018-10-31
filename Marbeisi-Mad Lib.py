@@ -13,7 +13,7 @@ print(" and I wanted to see the puppy, ")
 verb = input("choose a verb.")
 print("so I opened the basement door and %s down." % verb)
 
-print("down a bit.")
+print("a bit.")
 
 
 
