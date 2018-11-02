@@ -1,6 +1,6 @@
 # Paragraph
 
-noun = input ("choose a noun.")
+noun = input("choose a noun.")
 print("Mommy told me never to go in the %s." % noun)
 
 print(",but I wanted to see what was making that noise. ")
