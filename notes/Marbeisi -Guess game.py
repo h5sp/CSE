@@ -1,10 +1,21 @@
-import random
-print(random.randint(0, 10))
+number = 6
+guesses = 5
+win = False
 
-print("Guess what number I'm thinking of!")
-print("It's a number between 1 and 10")
-print("Good Luck!")
+while guesses > 0:
+    num = int(input("Pick a number between 1 and 10:"))
+    if num > 11:
+        print("Woah to high!")
+        guesses = guesses - 1
+    elif num > number:
+        print("The number is lower!")
+        guesses = guesses -1
+    elif num < number:
+        print("The number us greater")
+        guesses = guesses -1
+    elif num == number:
+         print("Omg! You did it!")
+         guesses = 0
 
-number = input("Pick a number.")
-print("Ha! I don't think so %s isn't the correct answer."% number)
+
 
