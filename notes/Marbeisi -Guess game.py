@@ -1,4 +1,4 @@
-number = 6
+number = 5
 guesses = 5
 win = False
 
@@ -9,13 +9,14 @@ while guesses > 0:
         guesses = guesses - 1
     elif num > number:
         print("The number is lower!")
-        guesses = guesses -1
+        guesses = guesses - 1
     elif num < number:
         print("The number us greater")
-        guesses = guesses -1
+        guesses = guesses - 1
     elif num == number:
          print("Omg! You did it!")
          guesses = 0
+
 
 
 
