@@ -7,8 +7,8 @@ MostMoney = money
 while money > 0:
     if MostMoney < money:
         MostMoney = money
-        BeatRound = Rounds
-     Rounds = (Rounds + 1)
+        BestRound = Rounds
+     Rounds =(rounds + 1)
     print("you have %d dollars" % money)
     FirstDice = random.randint(0, 4)
     SecondDice = random.randint(0, 6)
@@ -16,21 +16,12 @@ while money > 0:
     print("And Dice Two is %d " % SecondDice)
     Adding = (FirstDice + SecondDice)
     if Adding is 7:
-        print("Congratulations!")
+        print("Congratulations!You are so lucky!")
         money = (money + 5)
         print(money)
     else:
         print("You lost the bet")
-        money 
-
-
-
-
-
-
-
-
-
-
-
-
+        money - (money - 1)
+        print(money)
+print("The Number of Rounds to run out of money %d" % Rounds)
+print("You Should HAVE Stopped at  Round %d When you had %d Dollars"%  BestRound MostMoney)
