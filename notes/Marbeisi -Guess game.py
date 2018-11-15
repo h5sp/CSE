@@ -11,12 +11,8 @@ while guesses > 0:
         print("The number is lower!")
         guesses = guesses - 1
     elif num < number:
-        print("The number us greater")
+        print("The number is greater")
         guesses = guesses - 1
     elif number == number:
         print("Omg! You did it!")
         guesses = 0
-
-
-
-
