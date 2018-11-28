@@ -37,8 +37,6 @@ print(", or why he had no %s" % body_part)
 body_part = input("choose a body part.")
 print("or %s." % body_part)
 
-
-
 print("Mommy told me never to go in the %s , but I wanted to see what" % vehicle)
 print("was making that noise. It kind of sounded like a %s, and I wanted " % animal)
 print("to see the puppy, so I opened the basement door and %s down a"% verb)
@@ -47,4 +45,4 @@ print("basement and yelled at me. Mommy had never yelled at me before,")
 print("and it made me sad and I cried. Then Mommy told me never to go into ")
 print("the basement again, and she gave me a %s. That made me feel " % food)
 print(" %s, so I didn’t ask her why the %s in the basement was making " % emotion % person)
-print("noises like a puppy, or why he had no %s or %s."% body_part % body_part)
+print("noises like a puppy, or why he had no %s or %s." % body_part % body_part)

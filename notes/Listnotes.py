@@ -82,9 +82,9 @@ list1 = list(string1)
 print(list1)
 
 for i in range(len(list1)): # i goes throught all indices
-    if list[i] == "u": # if we find a U
-        list1.pop(i) # remove the i-th index
-        list1.insert(i,"*")  # Put a * there instead
+    if list[i] == "u":  # if we find a U
+        list1.pop(i)  # remove the i-th index
+        list1.insert(i, "*")  # Put a * there instead
 """
 for character in list1:
     if character == "u":
