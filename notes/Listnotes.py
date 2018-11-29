@@ -35,7 +35,7 @@ print(new_list[:4])
 
 
 food_list = ["pizza", "hamburger", "tacos", "burritos", "pie", "tamales", "soup", "brownie", "salad", "sushi", "cake", "chicken",
-             "rice", "beans", "cheese", "noodles", "fish", "meat","carne asada"]
+             "rice", "beans", "cheese", "noodles", "fish", "meat", "carne asada"]
 print(len(food_list))
 
 # Adding stuff to a list
@@ -81,7 +81,7 @@ string1 = "turquoise"
 list1 = list(string1)
 print(list1)
 
-for i in range(len(list1)): # i goes throught all indices
+for i in range(len(list1)):  # i goes through all indices
     if list[i] == "u":  # if we find a U
         list1.pop(i)  # remove the i-th index
         list1.insert(i, "*")  # Put a * there instead
