@@ -90,7 +90,7 @@ def distance(x1, y1, x2, y2):
 
 
 distance(0, 0, 3, 4)
-distance(0, 0, 5, 12 )
+distance(0, 0, 5, 12)
 
 # Loops
 for i in range(10): # This gives the numbers 0 through 4
