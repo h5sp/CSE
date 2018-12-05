@@ -1,4 +1,3 @@
-
 list1 = []
 
 list1.append(input("choose a vehicle."))
