@@ -7,8 +7,11 @@ name1 = challenge1("Marbeisi", "Morales")
 print(name1)
 
 # challenge2
-
-
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Odd".format(num))
 
 # challenge3
 
@@ -17,4 +20,5 @@ print(name1)
 
 
 # challenge5
+
 
