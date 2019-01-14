@@ -1,7 +1,9 @@
-word = 'Look its a wildbeest'
+import random
+words = ["Crypt", "Wildebeest", "Cupcake", "Documents", "Awkward", "Croquet", "Fervid",
+         " Bungler", "Rhythmic", "Zombie"]
+print(random.choices(words))
 guesses = 8
 win = False
-string1 = 'Look its a wildebeest'
+string1 = random.choice(words)
 list1 = list(string1)
-
-while guesses > 0:
+print()
