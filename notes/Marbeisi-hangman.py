@@ -1,14 +1,6 @@
-import random
-
-words = ["Crypt", "Wildebeest", "Cupcake", "Documents", "Awkward", "Croquet", "Fervid", " Bungler", "Rhythmic", "Zombie"]
-print(random.choices(words))
-
-guess_word = []
-
-secretWord = random.choice(words)
-
-length_word = len(secretWord)
-
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-
-letter_storage = []
+mainStr = "Hello peeps!"
+'''
+Replace all occurrences of given character or string in main string
+'''
+otherStr = mainStr.replace('o', 'p')
+print(otherStr)

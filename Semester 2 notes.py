@@ -20,3 +20,9 @@ print(colors)
 print(colors[3])
 
 print(len(colors))
+# notes for hangman
+
+import string
+print(list(string.ascii_letters))
+print(string.digits)
+print(string.punctuation)
