@@ -3,7 +3,8 @@ import sys
 
 
 # lets set some variables
-wordList = ["zombie"
+wordList = ["crypt", "wildebeest", "cupcake", "documents", "awkward", "croquet", "fervid",
+         "bungler", "rhythmic", "zombie"
            ]
 
 guess_word = []
@@ -61,7 +62,7 @@ def change():
 def guessing():
     guess_taken = 1
 
-    while guess_taken < 10:
+    while guess_taken < 8:
 
 
         guess = input("Pick a letter\n").lower()
