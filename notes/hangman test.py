@@ -1,13 +1,12 @@
 import random
-import string
+
 
 words = ["Crypt", "Wildebeest", "Cupcake", "Documents", "Awkward", "Croquet", "Fervid",
          " Bungler", "Rhythmic", "Zombie"]
-(list(string.ascii_letters))
-(random.choice(words))
 win = False
 guesses = 8
 secretWord = random.choice(words)
+alphabet = "abcdefghijklmnopqrstuvwxyz"
 guess_word = []
 length_word = len(secretWord)
 letter_storage = []
@@ -16,10 +15,15 @@ letter_in_word = []
 list_of_guesses = []
 
 while guesses_left > 0:
+    guess_word = []
+    for character in secretWord:
+        guess_word.append("_")
+    print("There are %s letters in this word" % length_word)
+    print(guess_word)
     guess = input("Enter a letter: ")
-
     if guess in letter_in_word:
         print("%s is in the word" % guess)
+        
     else:
         print("%s is not in the word" % guess)
 
