@@ -51,7 +51,6 @@ def guessing():
         elif guess in letter_storage:
             print("You have already guessed that letter!")
         else:
-
             letter_storage.append(guess)
             if guess in secretWord:
                 print("You guessed correctly!")
