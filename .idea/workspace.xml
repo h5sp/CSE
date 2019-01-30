@@ -22,7 +22,8 @@
     <SUITE FILE_PATH="coverage/CSE$Marbeisi_Mad_Lib_2.coverage" NAME="Marbeisi-Mad Lib 2 Coverage Results" MODIFIED="1544031193550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$hangman_test.coverage" NAME="hangman test Coverage Results" MODIFIED="1548697335451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Marbeisi_hangman.coverage" NAME="Marbeisi-hangman Coverage Results" MODIFIED="1548696934366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
-    <SUITE FILE_PATH="coverage/CSE$Dictionary_notes.coverage" NAME="Dictionary notes Coverage Results" MODIFIED="1548783839405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$Marbeisi__Dictionary_world_map.coverage" NAME="Marbeisi- Dictionary world map Coverage Results" MODIFIED="1548870252706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
+    <SUITE FILE_PATH="coverage/CSE$Dictionary_notes.coverage" NAME="Dictionary notes Coverage Results" MODIFIED="1548868590194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1548436200388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
     <SUITE FILE_PATH="coverage/CSE$Semester_2_notes.coverage" NAME="Semester 2 notes Coverage Results" MODIFIED="1547571984635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CSE$Listnotes.coverage" NAME="Listnotes Coverage Results" MODIFIED="1547140553267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
@@ -48,7 +49,7 @@
     <session id="-1296262386">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="39" />
+          <entry key="project.closed" value="40" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.35" value="1" />
@@ -70,26 +71,26 @@
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="3" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.60" value="3" />
+          <entry key="project.open.time.60" value="4" />
           <entry key="project.open.time.61" value="3" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.77" value="2" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="21" />
+          <entry key="Python" value="22" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="18177" />
+          <entry key="Python" value="19137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -97,12 +98,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="18177" />
+          <entry key="py" value="19137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="21" />
+          <entry key="py" value="22" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -114,26 +115,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/Marbeisi-Lucky's 7.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Listnotes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
+            <state relative-caret-position="528">
               <caret line="68" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/Marbeisi-Mad Lib 2.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -148,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="646">
               <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -160,17 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/hello world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="1292">
               <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/Marbeisi-Challenges.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -187,17 +165,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/hangman test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
+            <state relative-caret-position="697">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes/Dictionary notes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="235">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notes/Marbeisi- Dictionary world map.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -231,6 +218,7 @@
         <option value="$PROJECT_DIR$/notes/Marbeisi-hangman.py" />
         <option value="$PROJECT_DIR$/notes/hangman test.py" />
         <option value="$PROJECT_DIR$/notes/Dictionary notes.py" />
+        <option value="$PROJECT_DIR$/notes/Marbeisi- Dictionary world map.py" />
       </list>
     </option>
   </component>
@@ -276,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Dictionary notes">
+  <component name="RunManager" selected="Python.Marbeisi- Dictionary world map">
     <configuration name="Dictionary notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,6 +309,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Marbeisi- Dictionary world map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/Marbeisi- Dictionary world map.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Marbeisi-hangman" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CSE" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,28 +345,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/Marbeisi-hangman.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Semester 2 notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="CSE" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Semester 2 notes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -411,19 +399,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Marbeisi -Guess game" />
-      <item itemvalue="Python.Semester 2 notes" />
       <item itemvalue="Python.Marbeisi-hangman" />
       <item itemvalue="Python.hangman test" />
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.Dictionary notes" />
+      <item itemvalue="Python.Marbeisi- Dictionary world map" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Marbeisi- Dictionary world map" />
         <item itemvalue="Python.Dictionary notes" />
         <item itemvalue="Python.hangman test" />
         <item itemvalue="Python.Marbeisi-hangman" />
         <item itemvalue="Python.test2" />
-        <item itemvalue="Python.Semester 2 notes" />
       </list>
     </recent_temporary>
   </component>
@@ -453,8 +441,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49798387" weight="0.11195159" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49798387" weight="0.11195159" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.36885247" />
@@ -540,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Listnotes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/Marbeisi-Mad Lib 2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes/Marbeisi-hangman.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -559,7 +537,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="646">
           <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -569,7 +547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/hello world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="1292">
           <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
         </state>
       </provider>
@@ -590,15 +568,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/hangman test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
+        <state relative-caret-position="697">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/Dictionary notes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="235">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Marbeisi-Mad Lib 2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Listnotes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/Marbeisi- Dictionary world map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
