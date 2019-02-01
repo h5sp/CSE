@@ -96,3 +96,9 @@ for state, info in complex_dictionary.items():
         print(stats)
         print("-" * 20)
     print("-" * 20)
+
+# Other notes
+states["AR"] = "Arizona?"  # It isn't Arizona
+
+states["AR"] = "Arkanses"  # Fixed it
+print(states["AR"])
