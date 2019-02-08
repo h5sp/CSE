@@ -36,8 +36,25 @@ world_map = {
         'DESCRIPTION': "There are a couple of batteries in here.",
         'PATHS': {
             'WEST': "Pasillo Central"
-            
+
         }
 
-    }
+    },
+    'Party ROOM 3': {
+        'NAME': "The party room 3",
+        'DESCRIPTION': "There is a couple of tables here.",
+        'PATHS': {
+            'NORTH': "Secret room",
+
+        }
+    },
+    'SECRET ROOM': {
+        'NAME': "Secret room",
+        'DESCRIPTION': "The door to enter is locked! Find the key .",
+        'PATHS': {
+            'SOUTH': "Party room 3"
+
+        }
+    },
+    
 }
