@@ -1,7 +1,7 @@
 import random
 
 
-class RandomWiebe:
+class  RandomWiebe:
     @staticmethod
     def my_random():
         return random.radint(1, 100)

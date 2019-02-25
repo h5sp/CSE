@@ -4,7 +4,7 @@ print("Hello World!")
 
 # This is a comment. This has no effect on the code
 # but this does allow me to do things. I can:
-# 1. Make notes to myslef
+# 1. Make notes to myself
 # 2. Comment pieces of the code that do not work
 # 3. Make my code easier to read
 
@@ -93,7 +93,7 @@ distance(0, 0, 3, 4)
 distance(0, 0, 5, 12)
 
 # Loops
-for i in range(10): # This gives the numbers 0 through 4
+for i in range(10):  # This gives the numbers 0 through 4
     say_it()
 
 for i in range(10):
@@ -106,7 +106,7 @@ for i in range(5):
 a = 1
 while a < 10:
     print(a)
-    a += 2 # This is the same as saying a = a + 1
+    a += 2  # This is the same as saying a = a + 1
 
 
 """
@@ -138,7 +138,7 @@ your_grade = grade_calc(82)
 print(your_grade)
 
 # "Random" Notes
-import random # This should  be on line 1
+import random  # This should  be on line 1
 print(random.randint(0, 100))
 
 

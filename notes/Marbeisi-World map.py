@@ -56,5 +56,80 @@ world_map = {
 
         }
     },
+    'Parts and services': {
+        'Name': "Parts and services",
+        'DESCRIPTION': "This is where all spare equipment is at!",
+        'PATHS': {
+            'EAST': "Main Hall"
+        }
+    },
+    'Main Hall': {
+        'NAME': "Main Hall",
+        'DESCRIPTION': "This is the main hall! ",
+        'PATHS': {
+            'NORTH': "Girls Bathroom",
+            'NORTH EAST': "Boys Bathroom"
+        }
+    },
+    'Girls Bathroom': {
+        'NAME': "Girls Bathroom",
+        'DESCRIPTION': "This is the Girls Bathroom",
+        'PATHS': {
+            'SOUTH': "Main Hall"
+        }
+    },
+    'Boys Bathroom': {
+        'NAME': "Girls Bathroom",
+        'DESCRIPTION': "This is the boys bathroom",
+        'PATHS': {
+            'SOUTH': "Main Hall",
+            'SOUTH EAST': "Game Area"
+        }
+    },
+    'Game Area': {
+        'NAME': "Game Area",
+        'DESCRIPTION': "This is the Game Area",
+        'PATHS': {
+            'EAST NORTH': "Show Stage",
+            'EAST SOUTH': "Dinning Room"
+        }
+    },
+    'Show Stage': {
+        'NAME': "Show Stage",
+        'DESCRIPTION': "This is the Show Stage where all the fun is at!!",
+        'PATHS': {
+            'SOUTH WEST': "Game Area",
+            'SOUTH': "Dinning Room"
+        }
+    },
+    'Dinning Room': {
+        'NAME': "Dinning Room",
+        'DESCRIPTION': "This is the dinning Room.",
+        'PATHS': {
+            'SOUTH EAST': "Prize Corner",
+            'EAST': "Exit"
+        }
+    },
+    'Prize Corner': {
+        'NAME': "Prize Corner",
+        'DESCRIPTION': "This is the prize conner where you pick up your prize!",
+        'PATHS': {
+            'SOUTH': "Kids Cove",
+            'NORTH WEST': "Dinning Room",
+            'NORTH EAST': "EXIT"
+        }
+    },
+    'Kids Cove': {
+        'NAME': "Kids Cove",
+        'DESCRIPTION': "This is Kids cove where you can play at anytime!",
+        'PATHS': {
+            'NORTH': "Prize Corner",
+        }
+    },
+    'EXIT': {
+        'NAME': "EXIT",
+        'DESCRIPTION': "I'M SORRY THERE IS NO EXIT!!"
+
+    },
 
 }

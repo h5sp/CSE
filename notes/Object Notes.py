@@ -54,4 +54,3 @@ your_phone.smash_phone()
 your_phone.make_call(1)
 
 print(Special_Random.RandomWiebe.my_random())
-
