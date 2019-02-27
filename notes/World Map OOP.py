@@ -1,10 +1,12 @@
 class Room(object):
-    def __init__(self,  name, north=None, south=None, east=None, description=None):
+    def __init__(self,  name, description=None, north=None, south=None, east=None):
         self.name = name
         self.north = north
         self.south = south
         self.east = east
-        self.description = []
+        self.description = description
+        self.characters = []
+
 
 class Player(object):
     def __init__(self, starting_location):
@@ -25,7 +27,8 @@ class Player(object):
         :param direction:  The direction that you want to move to
         :return: The room object if it exits, or None if it does not
         """
-        return getattr(self.current_location, direction)
+        name_of_room = getattr(self.current_location, direction)
+        return globals()[name_of_room]
 
 
 # Option 1 - Define as we go
