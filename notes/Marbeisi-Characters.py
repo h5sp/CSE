@@ -5,5 +5,7 @@ class Worker(objects):
         self.inventory = inventory
         self.health = health
 
+
 class Player(object):
     def __init__(self):
+        self.__init__()

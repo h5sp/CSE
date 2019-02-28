@@ -12,6 +12,7 @@
     <SUITE FILE_PATH="coverage/notes$World_Map_OOP.coverage" NAME="World Map OOP Coverage Results" MODIFIED="1551287922610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi_Objects.coverage" NAME="Marbeisi-Objects Coverage Results" MODIFIED="1550683787199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi__World_Map_Object.coverage" NAME="Marbeisi- World Map Object Coverage Results" MODIFIED="1550768995183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$Inheritance.coverage" NAME="Inheritance Coverage Results" MODIFIED="1551375231820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Object_Notes.coverage" NAME="Object Notes Coverage Results" MODIFIED="1551115845379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi_World_map.coverage" NAME="Marbeisi-World map Coverage Results" MODIFIED="1550857219914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Mars_Random.coverage" NAME="Mars.Random Coverage Results" MODIFIED="1551116348441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -50,9 +51,10 @@
     <session id="-1403022531">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.104" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.60" value="1" />
@@ -61,27 +63,27 @@
           <entry key="project.open.time.72" value="1" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.86" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5881" />
+          <entry key="py" value="6613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5881" />
+          <entry key="Python" value="6613" />
         </counts>
       </usages-collector>
     </session>
@@ -89,19 +91,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello world.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2397">
-              <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Special_Random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="68">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
               <folding>
                 <marker date="1551115803647" expanded="true" signature="35:36" ph="..." />
                 <marker date="1551115803647" expanded="true" signature="74:83" ph="..." />
@@ -165,14 +158,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Marbeisi-Characters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <marker date="1551288421284" expanded="true" signature="73:78" ph="..." />
-                <marker date="1551288421284" expanded="true" signature="224:229" ph="..." />
+                <marker date="1551373320287" expanded="true" signature="73:78" ph="..." />
+                <marker date="1551373320287" expanded="true" signature="225:230" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Inheritance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1551375231742" expanded="true" signature="22:27" ph="..." />
+                <marker date="1551375231742" expanded="true" signature="99:104" ph="..." />
+                <marker date="1551375231742" expanded="true" signature="594:597" ph="..." />
+                <marker date="1551375231742" expanded="true" signature="684:761" ph="..." />
               </folding>
             </state>
           </provider>
@@ -218,11 +225,12 @@
         <option value="$PROJECT_DIR$/Marbeisi- World Map Object.py" />
         <option value="$PROJECT_DIR$/Marbeisi-World map.py" />
         <option value="$PROJECT_DIR$/Object Notes.py" />
-        <option value="$PROJECT_DIR$/Special_Random.py" />
         <option value="$PROJECT_DIR$/Mars.Random.py" />
         <option value="$PROJECT_DIR$/hello world.py" />
         <option value="$PROJECT_DIR$/World Map OOP.py" />
         <option value="$PROJECT_DIR$/Marbeisi-Characters.py" />
+        <option value="$PROJECT_DIR$/Special_Random.py" />
+        <option value="$PROJECT_DIR$/Inheritance.py" />
       </list>
     </option>
   </component>
@@ -262,8 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.World Map OOP">
-    <configuration name="Marbeisi- World Map Object" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Inheritance">
+    <configuration name="Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,7 +284,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Marbeisi- World Map Object.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Inheritance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,18 +383,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Object Notes" />
-      <item itemvalue="Python.Marbeisi- World Map Object" />
       <item itemvalue="Python.Marbeisi-World map" />
       <item itemvalue="Python.Mars.Random" />
       <item itemvalue="Python.World Map OOP" />
+      <item itemvalue="Python.Inheritance" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Inheritance" />
         <item itemvalue="Python.World Map OOP" />
         <item itemvalue="Python.Mars.Random" />
         <item itemvalue="Python.Object Notes" />
         <item itemvalue="Python.Marbeisi-World map" />
-        <item itemvalue="Python.Marbeisi- World Map Object" />
       </list>
     </recent_temporary>
   </component>
@@ -454,51 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Special_Random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <marker date="1551115803647" expanded="true" signature="35:36" ph="..." />
-            <marker date="1551115803647" expanded="true" signature="74:83" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Object Notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marbeisi-World map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marbeisi-Objects.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <marker date="1550252469770" expanded="true" signature="19:24" ph="..." />
-            <marker date="1550252469770" expanded="true" signature="300:309" ph="..." />
-            <marker date="1550252469770" expanded="true" signature="503:563" ph="..." />
-            <marker date="1550252469770" expanded="true" signature="578:587" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mars.Random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Marbeisi- Dictionary world map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -516,6 +479,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Marbeisi-Characters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <marker date="1551373320287" expanded="true" signature="73:78" ph="..." />
+            <marker date="1551373320287" expanded="true" signature="225:230" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/World Map OOP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -527,13 +501,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marbeisi-Characters.py">
+    <entry file="file://$PROJECT_DIR$/Mars.Random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marbeisi-Objects.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
-            <marker date="1551288421284" expanded="true" signature="73:78" ph="..." />
-            <marker date="1551288421284" expanded="true" signature="224:229" ph="..." />
+            <marker date="1550252469770" expanded="true" signature="19:24" ph="..." />
+            <marker date="1550252469770" expanded="true" signature="300:309" ph="..." />
+            <marker date="1550252469770" expanded="true" signature="503:563" ph="..." />
+            <marker date="1550252469770" expanded="true" signature="578:587" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marbeisi-World map.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Object Notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Special_Random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1551115803647" expanded="true" signature="35:36" ph="..." />
+            <marker date="1551115803647" expanded="true" signature="74:83" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1551375231742" expanded="true" signature="22:27" ph="..." />
+            <marker date="1551375231742" expanded="true" signature="99:104" ph="..." />
+            <marker date="1551375231742" expanded="true" signature="594:597" ph="..." />
+            <marker date="1551375231742" expanded="true" signature="684:761" ph="..." />
           </folding>
         </state>
       </provider>
