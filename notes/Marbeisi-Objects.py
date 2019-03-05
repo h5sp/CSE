@@ -1,10 +1,10 @@
 class Ball(object):
-    def __init__(self):
-        self.bounce = True
-        self.throw = True
-        self.pop = True
-        self.kick = True
-        self.roll = True
+    def __init__(self, ):
+        self.bounce = 2
+        self.throw = 5
+        self.pop = 1
+        self.kick = 10
+        self.roll = 5
 
     def bounce(self):
         self.bounce += times
@@ -34,3 +34,12 @@ class Ball(object):
         self.roll += times
         if self.roll > 5:
             self.roll = 5
+
+
+My_ball = Ball
+
+My_ball.roll = 7
+My_ball.kick = 10
+My_ball.pop = 1
+My_ball.throw = 5
+My_ball.bounce = 2
