@@ -1,5 +1,5 @@
 class Items(objects):
-    def __init__(self, flashlight, bat):
+    def __init__(self):
         self.flashlight = flashlight
         self.bat = bat
         self.key = key
@@ -11,4 +11,8 @@ class Items(objects):
         self.watch = watch
         self.tickets = tickets
         self.chicken_nuggets = chicken_nuggets
-           
+        self.microwave = microwave
+        self.ketchup = ketchup
+        self.nails = nails
+        self.hammer = hammer
+
