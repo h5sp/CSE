@@ -1,6 +1,7 @@
 class Items(objects):
     def __init__(self, name):
         self.name = name
+        sef.health = 100
 
 
 class Weapon(weapons):
