@@ -5,43 +5,30 @@ class Items(objects):
 
 
 class Weapon(weapons):
-    def __init__(self):
-        self.baseball_bat = baseball_bat
-        self.pitchfork = pitchfork
-        self.hammer = hammer
-        self.nails = nails
-        self.matches = matches
-        self.key = key
+    def __init__(self, damage):
+        super(Weapon, self).__init__(name)
+        self.damage = damage
 
 
 class Food(food):
+    def __init__(self, energy):
+        super(Food, self).__init__(name)
+        self.energy = energy
+
+
+class HealthKit(healthkit, health):
     def __init__(self):
-        self.chicken_nuggets = chicken_nuggets
-        self.ketchup = ketchup
-        self.energy_drinks = energy_drinks
+        super(Healht_kit, self).__init__(name)
+        self.health = health
 
 
-class HealthKit(healthkit):
+class Electronics(electronics, usefull):
     def __init__(self):
-        self.bandages = bandages
-        self.medicine = medicine
-        self.anesthetic = anesthetic
-        self.scissors = scissors
-        self.alcohol = alcohol
+        super(Electronics, self).__init__(name)
+        self.useful = useful
 
 
-class Electronics(electronics):
+class Armor(armor, protection):
     def __init__(self):
-        self.microwave = microwave
-        self.flashlight = flashlight
-        self.batteries = batteries
-        self.watch = watch
-
-
-class Clothes(clothes):
-    def __init__(self):
-        self.T_shirts = T_shirts
-        self.jeans = jeans
-        self.shoes = shoes
-        self.socks = socks
-        self.beanie = beanie
+        super(Armor, self).__init__(name)
+        self.protection = protection
