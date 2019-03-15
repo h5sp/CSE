@@ -1,13 +1,63 @@
 class Items(objects):
     def __init__(self, name):
         self.name = name
-        sef.health = 100
+        self.health = 100
+        self.armor = 100
+        self.inventory = 10
 
 
 class Weapon(weapons):
     def __init__(self, damage):
         super(Weapon, self).__init__(name)
         self.damage = damage
+
+
+class Baseballbat(weapons):
+    def __init__(self):
+        super(weapon, self).__init__(name)
+        self.damage -= 15
+
+
+class Pitchfork(weapons):
+    def __init__(self):
+        super(weapon, self).__init__(name)
+        self.damage -= 20
+
+
+class Hammer(weapons):
+    def __init__(self):
+        super(weapon, self).__init__(name)
+        self.damage -= 10
+
+
+class Tools(tools):
+    def __init__(self):
+        super(tools, self).__init__(name)
+        self.inventory = inventory
+
+
+class Hammer2(tools):
+    def __init__(self):
+        super(tools, self).__init__(name)
+        self.inventory += 2
+
+
+class Nails(tools):
+    def __init__(self):
+        super(tools, self).__init__(name)
+        self.inventory += 1
+
+
+class Matches(tools):
+    def __init__(self):
+        super(tools, self).__init__(name)
+        self.inventory += 3
+
+
+class Key(tools):
+    def __init__(self):
+        super(tools, self).__init__(name)
+        self.inventory += 1
 
 
 class Food(food):
