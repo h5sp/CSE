@@ -4,6 +4,8 @@ class Items(objects):
         self.health = 100
         self.armor = 100
         self.inventory = 10
+        self.energy = 100
+        self.health_kit_inventory = 50
 
 
 class Weapon(weapons):
@@ -66,11 +68,46 @@ class Food(food):
         self.energy = energy
 
 
+class ChickenNuggets(food):
+    def __init__(self):
+        super(food, self).__init__(name)
+        self.energy += 5
+
+
+class EnergyDrinks(food):
+    def __init__(self):
+        super(food, self).__init__(name)
+        self.energy += 10
+
+
 class HealthKit(healthkit, health):
     def __init__(self):
-        super(Healht_kit, self).__init__(name)
-        self.health = health
+        super(health_kit, self).__init__(name)
+        self.health_Kit_Inventory = inventory
 
+
+class Bandages(health_Kit):
+    def __init__(self):
+        super(health, self).__init__(name)
+        self.health_Kit_Inventory += 2
+
+
+class Medicine(health_Kit):
+    def __init__(self):
+        super(health, self).__init__(name)
+        self.health_Kit_Inventory += 5
+
+
+class Anesthetic(health_Kit):
+    def __inti__(self):
+        super(health, self).__inti__(name)
+        self.health_Kit_Inventory += 5
+
+
+class Scissors(health_Kit):
+    def __init__(self):
+        super(health, self).__init__(name)
+        self.health_Kit_Inventory +
 
 class Electronics(electronics, usefull):
     def __init__(self):
