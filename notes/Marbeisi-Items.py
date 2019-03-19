@@ -83,7 +83,7 @@ class EnergyDrinks(food):
 class HealthKit(healthkit, health):
     def __init__(self):
         super(health_kit, self).__init__(name)
-        self.health_Kit_Inventory = inventory
+        self.health_Kit_Inventory = 50
 
 
 class Bandages(health_Kit):
@@ -100,22 +100,64 @@ class Medicine(health_Kit):
 
 class Anesthetic(health_Kit):
     def __inti__(self):
-        super(health, self).__inti__(name)
+        super(health_Kit, self).__inti__(name)
         self.health_Kit_Inventory += 5
+        self.health += 5
 
 
 class Scissors(health_Kit):
     def __init__(self):
         super(health, self).__init__(name)
-        self.health_Kit_Inventory +
+        self.health_Kit_Inventory += 2
 
-class Electronics(electronics, usefull):
+
+class Electronics(electronics, on=True, off=False):
     def __init__(self):
         super(Electronics, self).__init__(name)
-        self.useful = useful
+        self.on = True
+        self.off = False
+
+
+class Microwave(electronics):
+    def __init__(self):
+        super(electronics, self).__init__(name)
+        self.on = True
+        print("The microwave is on!")
+        self.off = False
+        print("The microwave is off!")
+
+
+class Flashlight(electronics):
+    def __init__(self):
+        super(electronics, self).__init__(name)
+        self.on = True
+        print("The flashlight is on!")
+        self.off = False
+        print("The flashlight is off!")
 
 
 class Armor(armor, protection):
     def __init__(self):
         super(Armor, self).__init__(name)
         self.protection = protection
+
+
+class Helmet(armor, protection):
+    def __init__(self):
+        super(armor, self).__init__(name)
+        self.protection = protection
+        self.damage -= 5
+
+
+class Chestplate(armor, protection):
+    def __init__(self):
+        super(armor, self).__init__(name)
+        self.protection = protection
+        self.damage -= 5
+
+
+class Shield(armor, protection):
+    def __init__(self):
+        super(armor, self).__init__(name)
+        self.protection = protection
+        self.damage -= 5
