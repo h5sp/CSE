@@ -41,10 +41,3 @@ pitchfork = Weapon("pitchfork", 20)
 hammer = Weapon("hammer", 10)
 police_armor = Armor("Police armor", 100)
 
-orc = Character("Orcl", 100, sword, Armor("Generic Armor", 2))
-orc2 = Character("Wiebe", 100, canoe, wiebe_armor)
-
-orc.attack(orc2)
-orc2.attack(orc)
-orc2.attack(orc)
-orc2.attack(orc)

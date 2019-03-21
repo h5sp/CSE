@@ -1,5 +1,5 @@
-class Items(objects):
-    def __init__(self, name):
+class Items(object):
+    def __init__(self):
         self.name = name
         self.health = 100
         self.armor = 100
@@ -8,27 +8,32 @@ class Items(objects):
         self.health_kit_inventory = 50
 
 
-class Weapon(weapons):
+class weapons(Items):
+    def __init__(self, name):
+        super(weapons, self).__init__(name)
+
+
+class Weapons(Items):
     def __init__(self, damage):
-        super(Weapon, self).__init__(name)
+        super(Weapons, self).__init__(name)
         self.damage = damage
 
 
-class Baseballbat(weapons):
+class Baseballbat(Items):
     def __init__(self):
-        super(weapon, self).__init__(name)
+        super(Weapons, self).__init__(name)
         self.damage -= 15
 
 
 class Pitchfork(weapons):
     def __init__(self):
-        super(weapon, self).__init__(name)
+        super(weapons, self).__init__(name)
         self.damage -= 20
 
 
 class Hammer(weapons):
     def __init__(self):
-        super(weapon, self).__init__(name)
+        super(weapons, self).__init__(name)
         self.damage -= 10
 
 
