@@ -53,7 +53,10 @@ class Hammer(Weapons):
         self.damage -= 10
 
 
-
+class Tools(tools):
+    def __init__(self):
+        super(Tools, self).__init__(name)
+        self.damage = damage
 
 
 class Hammer2(tools):
