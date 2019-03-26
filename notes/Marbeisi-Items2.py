@@ -60,8 +60,7 @@ class Tools(tools):
 
 
 class Hammer2(tools):
-    def __init__(self):
-        super(Hammer2, self).__init__(name)
+    def __init__(self):        super(Hammer2, self).__init__(name)
         self.inventory += 2
 
 

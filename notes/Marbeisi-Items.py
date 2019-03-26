@@ -20,6 +20,7 @@ class Player(object):
 
 
 class Items(object):
+
     def __init__(self):
         self.name = name
         self.health = 100
@@ -51,9 +52,6 @@ class Hammer(Weapons):
     def __init__(self):
         super(Hammer, self).__init__(name)
         self.damage -= 10
-
-
-
 
 
 class Hammer2(tools):
