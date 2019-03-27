@@ -12,12 +12,14 @@
     <SUITE FILE_PATH="coverage/notes$World_Map_OOP.coverage" NAME="World Map OOP Coverage Results" MODIFIED="1551287922610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi_Objects.coverage" NAME="Marbeisi-Objects Coverage Results" MODIFIED="1551893529728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi_Items2.coverage" NAME="Marbeisi-Items2 Coverage Results" MODIFIED="1553616216543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$hello_world.coverage" NAME="hello world Coverage Results" MODIFIED="1553703134353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi_Items.coverage" NAME="Marbeisi-Items Coverage Results" MODIFIED="1553532012812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/notes$items_try.coverage" NAME="items try Coverage Results" MODIFIED="1553618631088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/notes$Marbeisi_Characters.coverage" NAME="Marbeisi-Characters Coverage Results" MODIFIED="1553184230924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$items_try.coverage" NAME="items try Coverage Results" MODIFIED="1553703570498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$Marbeisi_Characters.coverage" NAME="Marbeisi-Characters Coverage Results" MODIFIED="1553704574292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi__World_Map_Object.coverage" NAME="Marbeisi- World Map Object Coverage Results" MODIFIED="1550768995183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$notes_for_characters.coverage" NAME="notes for characters Coverage Results" MODIFIED="1552495189370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Mars_Random.coverage" NAME="Mars.Random Coverage Results" MODIFIED="1551116348441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$Dictionary_notes.coverage" NAME="Dictionary notes Coverage Results" MODIFIED="1553703813808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Marbeisi__Dictionary_world_map.coverage" NAME="Marbeisi- Dictionary world map Coverage Results" MODIFIED="1551892971479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Inheritance.coverage" NAME="Inheritance Coverage Results" MODIFIED="1551463397645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Object_Notes.coverage" NAME="Object Notes Coverage Results" MODIFIED="1551893169099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -71,7 +73,7 @@
     <session id="-1403022531">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.104" value="1" />
           <entry key="project.open.time.37" value="1" />
@@ -81,7 +83,7 @@
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.53" value="2" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.59" value="2" />
           <entry key="project.open.time.60" value="1" />
@@ -96,27 +98,27 @@
           <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.93" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="32" />
+          <entry key="py" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="32" />
+          <entry key="Python" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="16504" />
+          <entry key="py" value="16772" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="16504" />
+          <entry key="Python" value="16772" />
         </counts>
       </usages-collector>
     </session>
@@ -126,18 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Marbeisi-Items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="178" column="24" lean-forward="true" selection-start-line="177" selection-start-column="8" selection-end-line="178" selection-end-column="24" />
-              <folding>
-                <marker date="1553616923675" expanded="true" signature="769:963" ph="..." />
-                <marker date="1553616923675" expanded="true" signature="964:965" ph="..." />
-                <marker date="1553616923675" expanded="true" signature="986:991" ph="..." />
-                <marker date="1553616923675" expanded="true" signature="1119:1236" ph="..." />
-                <marker date="1553616923675" expanded="true" signature="1851:1946" ph="..." />
-                <marker date="1553616923675" expanded="true" signature="2470:3054" ph="..." />
-                <marker date="1553616923675" expanded="true" signature="2943:3054" ph="..." />
-                <marker date="1553616923675" expanded="true" signature="3485:3686" ph="..." />
-              </folding>
+            <state relative-caret-position="1">
+              <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
             </state>
           </provider>
         </entry>
@@ -145,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Inheritance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="102">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding>
                 <marker date="1551463397582" expanded="true" signature="22:27" ph="..." />
                 <marker date="1551463397582" expanded="true" signature="99:104" ph="..." />
@@ -157,22 +149,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/items try.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+            <state relative-caret-position="1317">
+              <caret line="106" column="50" lean-forward="true" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
               <folding>
-                <marker date="1553618669401" expanded="true" signature="1495:1597" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="1583:1584" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="1953:1962" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="1985:1994" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="1985:1998" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="3622:3635" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="3658:3667" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="3658:3671" ph="..." />
-                <marker date="1553618669401" expanded="true" signature="3658:3675" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="1581:1683" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="1669:1670" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="2039:2048" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="2071:2080" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="2071:2084" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="3708:3721" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="3744:3753" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="3744:3757" ph="..." />
+                <marker date="1553703570435" expanded="true" signature="3744:3761" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/notes for characters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <marker date="1552495458895" expanded="true" signature="19:24" ph="..." />
+                <marker date="1552495458895" expanded="true" signature="19:347" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Marbeisi-Characters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dictionary notes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1546">
+              <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -180,8 +203,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hello world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+            <state relative-caret-position="2278">
+              <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -212,7 +235,6 @@
         <option value="$PROJECT_DIR$/Marbeisi- World Map Object.py" />
         <option value="$PROJECT_DIR$/Object Notes.py" />
         <option value="$PROJECT_DIR$/Mars.Random.py" />
-        <option value="$PROJECT_DIR$/hello world.py" />
         <option value="$PROJECT_DIR$/World Map OOP.py" />
         <option value="$PROJECT_DIR$/Special_Random.py" />
         <option value="$PROJECT_DIR$/Inheritance.py" />
@@ -220,10 +242,11 @@
         <option value="$PROJECT_DIR$/Marbeisi -Guess game.py" />
         <option value="$PROJECT_DIR$/Marbeisi-Objects.py" />
         <option value="$PROJECT_DIR$/notes for characters.py" />
-        <option value="$PROJECT_DIR$/Marbeisi-Characters.py" />
         <option value="$PROJECT_DIR$/Marbeisi-Items2.py" />
         <option value="$PROJECT_DIR$/Marbeisi-Items.py" />
+        <option value="$PROJECT_DIR$/hello world.py" />
         <option value="$PROJECT_DIR$/items try.py" />
+        <option value="$PROJECT_DIR$/Marbeisi-Characters.py" />
       </list>
     </option>
   </component>
@@ -263,7 +286,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.items try">
+  <component name="RunManager" selected="Python.Marbeisi-Characters">
+    <configuration name="Dictionary notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dictionary notes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Marbeisi-Characters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,28 +323,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Marbeisi-Characters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Marbeisi-Items" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="notes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Marbeisi-Items.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,6 +353,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hello world" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hello world.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="items try" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,42 +397,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="notes for characters" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="notes" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes for characters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.notes for characters" />
-      <item itemvalue="Python.Marbeisi-Items" />
-      <item itemvalue="Python.Marbeisi-Characters" />
       <item itemvalue="Python.Marbeisi-Items2" />
       <item itemvalue="Python.items try" />
+      <item itemvalue="Python.hello world" />
+      <item itemvalue="Python.Dictionary notes" />
+      <item itemvalue="Python.Marbeisi-Characters" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.items try" />
-        <item itemvalue="Python.Marbeisi-Items2" />
-        <item itemvalue="Python.Marbeisi-Items" />
         <item itemvalue="Python.Marbeisi-Characters" />
-        <item itemvalue="Python.notes for characters" />
+        <item itemvalue="Python.Dictionary notes" />
+        <item itemvalue="Python.items try" />
+        <item itemvalue="Python.hello world" />
+        <item itemvalue="Python.Marbeisi-Items2" />
       </list>
     </recent_temporary>
   </component>
@@ -481,9 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dictionary notes.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Marbeisi -Guess game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -523,12 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <marker date="1551893526211" expanded="true" signature="19:24" ph="..." />
-            <marker date="1551893526211" expanded="true" signature="288:297" ph="..." />
-            <marker date="1551893526211" expanded="true" signature="491:551" ph="..." />
-            <marker date="1551893526211" expanded="true" signature="566:575" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -536,10 +550,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marbeisi-Items2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
-            <marker date="1551287783675" expanded="true" signature="19:24" ph="..." />
-            <marker date="1551287783675" expanded="true" signature="673:678" ph="..." />
+            <marker date="1551463397582" expanded="true" signature="22:27" ph="..." />
+            <marker date="1551463397582" expanded="true" signature="99:104" ph="..." />
+            <marker date="1551463397582" expanded="true" signature="594:597" ph="..." />
+            <marker date="1551463397582" expanded="true" signature="684:1027" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marbeisi-Items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello world.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dictionary notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1546">
+          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -554,72 +605,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marbeisi-Characters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marbeisi-Items2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Inheritance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <marker date="1551463397582" expanded="true" signature="22:27" ph="..." />
-            <marker date="1551463397582" expanded="true" signature="99:104" ph="..." />
-            <marker date="1551463397582" expanded="true" signature="594:597" ph="..." />
-            <marker date="1551463397582" expanded="true" signature="684:1027" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Marbeisi-Items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="178" column="24" lean-forward="true" selection-start-line="177" selection-start-column="8" selection-end-line="178" selection-end-column="24" />
-          <folding>
-            <marker date="1553616923675" expanded="true" signature="769:963" ph="..." />
-            <marker date="1553616923675" expanded="true" signature="964:965" ph="..." />
-            <marker date="1553616923675" expanded="true" signature="986:991" ph="..." />
-            <marker date="1553616923675" expanded="true" signature="1119:1236" ph="..." />
-            <marker date="1553616923675" expanded="true" signature="1851:1946" ph="..." />
-            <marker date="1553616923675" expanded="true" signature="2470:3054" ph="..." />
-            <marker date="1553616923675" expanded="true" signature="2943:3054" ph="..." />
-            <marker date="1553616923675" expanded="true" signature="3485:3686" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello world.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="141" column="29" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/items try.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+        <state relative-caret-position="1317">
+          <caret line="106" column="50" lean-forward="true" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
           <folding>
-            <marker date="1553618669401" expanded="true" signature="1495:1597" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="1583:1584" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="1953:1962" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="1985:1994" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="1985:1998" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="3622:3635" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="3658:3667" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="3658:3671" ph="..." />
-            <marker date="1553618669401" expanded="true" signature="3658:3675" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="1581:1683" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="1669:1670" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="2039:2048" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="2071:2080" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="2071:2084" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="3708:3721" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="3744:3753" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="3744:3757" ph="..." />
+            <marker date="1553703570435" expanded="true" signature="3744:3761" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marbeisi-Characters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>

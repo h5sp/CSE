@@ -27,7 +27,7 @@ class Player(object):
 
     def take_damage(self, damage):
         if self.armor.armor_amt > damage:
-            print("NO damage is done!")
+            print("No damage is done!")
         else:
             self.health -= damage - self.armor.armor_amt
         print("%s attacks %s for %d damage " % self.name % self.health)
@@ -40,4 +40,7 @@ baseballbat = Weapon("baseballbat", 15)
 pitchfork = Weapon("pitchfork", 20)
 hammer = Weapon("hammer", 10)
 police_armor = Armor("Police armor", 100)
+orc =
+orc2 =
+
 

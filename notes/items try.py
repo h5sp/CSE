@@ -12,6 +12,8 @@ class Items(object):
             def __init__(self, damage):
                 super(Weapons, self).__init__(name)
                 self.damage = damage
+                if damage is done:
+                    print("THere is damage done!")
 
             def baseballbat(self):
                 self.damage -= 15
@@ -131,4 +133,5 @@ class Items(object):
 
                 if armor >= damage:
                     print("No damage is done")
-                elif
+                elif damage >= armor:
+                    print("There is %s damage done! " % damage)
