@@ -36,11 +36,3 @@ class Player(object):
         print("%s attacks %s for %d damage" % self.name % target.name % self.weapon.damage)
 
 
-baseballbat = Weapon("baseballbat", 15)
-pitchfork = Weapon("pitchfork", 20)
-hammer = Weapon("hammer", 10)
-police_armor = Armor("Police armor", 100)
-orc =
-orc2 =
-
-
