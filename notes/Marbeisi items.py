@@ -135,7 +135,3 @@ class Items(object):
                     print("No damage is done")
                 elif damage >= armor:
                     print("There is %s damage done! " % damage)
-
-
-print("You got %s items in your inventory" % self.inventory)
-

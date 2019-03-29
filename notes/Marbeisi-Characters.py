@@ -34,5 +34,3 @@ class Player(object):
 
     def attack(self, target):
         print("%s attacks %s for %d damage" % self.name % target.name % self.weapon.damage)
-
-
