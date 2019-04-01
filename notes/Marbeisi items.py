@@ -32,10 +32,6 @@ class Items(object):
                 super(Tools, self).__init__(name)
                 self.inventory = inventory
 
-            def hammer2(self):
-                self.inventory += 2
-                print("This has been added to your inventory!")
-
             def nails(self):
                 self.inventory += 1
                 print("This has been added to your inventory!")

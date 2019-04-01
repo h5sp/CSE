@@ -152,4 +152,3 @@ while playing:
             print("I cant go that way")
     else:
         print("Command Not Found")
-
