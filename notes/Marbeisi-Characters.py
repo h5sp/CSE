@@ -15,7 +15,7 @@ class Armor(Item):
         self.armor = armor
 
 
-class Player(object):
+class Player(Character):
     def __init__(self, name, description):
                     self.name = name
                     self.description = description
@@ -34,3 +34,19 @@ class Player(object):
 
     def attack(self, target):
         print("%s attacks %s for %d damage" % self.name % target.name % self.weapon.damage)
+
+
+class Enemies(Character):
+    def __init__(self):
+        self.health = 100
+        self.inventory = []
+        self.take_damage = damage
+        self.inflict_damage = inflict_damage
+
+    def attack(self):
+        print("")
+
+
+
+player = Character("")
+enemies = Character("")

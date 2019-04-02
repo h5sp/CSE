@@ -2,7 +2,7 @@ class Player(object):
     def __init__(self, name, description):
                     self.name = name
                     self.description = description
-                    self.inventory = inventory
+                    self.inventory = []
                     self.health = 100
                     self.armor = 100
                     self.weapon = weapon
@@ -55,88 +55,86 @@ class Hammer(Weapons):
 
 
 class Tools(Items):
-    def 
-
     def __init__(self):
-        super(tools, self).__init__(name)
-        self.inventory = inventory
+        super(Tools, self).__init__(name)
+        self.inventory = []
 
 
-class Nails(tools):
+class Nails(Tools):
     def __init__(self):
         super(Nails, self).__init__(name)
         self.inventory += 1
 
 
-class Matches(tools):
+class Matches(Tools):
     def __init__(self):
         super(Matches, self).__init__(name)
         self.inventory += 3
 
 
-class Key(tools):
+class Key(Tools):
     def __init__(self):
         super(Key, self).__init__(name)
         self.inventory += 1
 
 
-class Food(food):
-    def __init__(self, energy):
+class Food(Items):
+    def __init__(self):
         super(Food, self).__init__(name)
         self.energy = energy
 
 
-class ChickenNuggets(food):
+class ChickenNuggets(Food):
     def __init__(self):
-        super(Chickennuggets, self).__init__(name)
+        super(ChickenNuggets, self).__init__(name)
         self.energy += 5
 
 
-class EnergyDrinks(food):
+class EnergyDrinks(Food):
     def __init__(self):
-        super(Energydrinks, self).__init__(name)
+        super(EnergyDrinks, self).__init__(name)
         self.energy += 10
 
 
-class HealthKit(healthkit, health):
+class HealthKit(Items):
     def __init__(self):
-        super(Health_kit, self).__init__(name)
+        super(HealthKit, self).__init__(name)
         self.health_Kit_Inventory = 50
 
 
-class Bandages(health_Kit):
+class Bandages(HealthKit):
     def __init__(self):
         super(Bandages, self).__init__(name)
         self.health_Kit_Inventory += 2
 
 
-class Medicine(health_Kit):
+class Medicine(HealthKit):
     def __init__(self):
         super(Medicine, self).__init__(name)
         self.health_Kit_Inventory += 5
 
 
-class Anesthetic(health_Kit):
+class Anesthetic(HealthKit):
     def __inti__(self):
         super(Health_Kit, self).__inti__(name)
         self.health_Kit_Inventory += 5
         self.health += 5
 
 
-class Scissors(health_Kit):
+class Scissors(HealthKit):
     def __init__(self):
         super(Scissors, self).__init__(name)
         self.health_Kit_Inventory += 2
 
 
-class Electronics(electronics, on=True, off=False):
+class Electronics(Items):
     def __init__(self):
         super(Electronics, self).__init__(name)
         self.on = True
         self.off = False
 
 
-class Microwave(electronics):
+class Microwave(Electronics):
     def __init__(self):
         super(Microwave, self).__init__(name)
         self.on = True
@@ -145,7 +143,7 @@ class Microwave(electronics):
         print("The microwave is off!")
 
 
-class Flashlight(electronics):
+class Flashlight(Electronics):
     def __init__(self):
         super(Flashlight, self).__init__(name)
         self.on = True
@@ -154,28 +152,33 @@ class Flashlight(electronics):
         print("The flashlight is off!")
 
 
-class Armor(armor, protection):
+class Armor(Items):
     def __init__(self):
         super(Armor, self).__init__(name)
         self.protection = protection
 
 
-class Helmet(armor, protection):
+class Helmet(Armor):
     def __init__(self):
         super(Helmet, self).__init__(name)
         self.protection = protection
         self.damage -= 5
 
 
-class Chestplate(armor, protection):
+class Chestplate(Armor):
     def __init__(self):
         super(Chestplate, self).__init__(name)
         self.protection = protection
         self.damage -= 5
 
 
-class Shield(armor, protection):
+class Shield(Armor):
     def __init__(self):
         super(Shield, self).__init__(name)
         self.protection = protection
         self.damage -= 5
+
+
+Me = Player("Me", "It's me")
+Me.inventory = [Shield, Scissors, Chestplate]
+Me.attack()
