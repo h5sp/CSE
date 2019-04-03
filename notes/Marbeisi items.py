@@ -12,20 +12,52 @@ class Items(object):
             def __init__(self, damage):
                 super(Weapons, self).__init__(name)
                 self.damage = damage
+                self.inventory = []
                 if health <= damage:
                     print("There is damage done!")
 
             def baseballbat(self):
                 self.damage -= 15
+                self.inventory += 5
                 print("You have swinged the bat!")
+                answer = input("Do you want to pick this up?")
+                print("You have answer %s , you have picked this item up!" % answer)
+                if answer.lower() in ['no']:
+                    print("item is not picked up!")
 
             def pitchfork(self):
                 self.damage -= 20
+                self.inventory += 10
                 print("you hav picked up the pitchfork!")
+                answer = input("Do you want to pick this up?")
+                print("You have answer %s , you have picked this item up!" % answer)
+                if answer.lower() in ['no']:
+                    print("item is not picked up!")
 
             def hammer(self):
                 self.damage -= 10
+                self.inventory += 4
                 print("you have used the hammer!")
+                answer = input("Do you want to pick this up?")
+                print("You have answer %s , you have picked this item up!" % answer)
+                if answer.lower() in ['no']:
+                    print("item is not picked up!")
+
+            def sword(self):
+                self.dmage -= 20
+                self.inventory += 7
+                print("You have used your sword")
+                answer = input("Do you want to pick this up?")
+                print("You have answer %s , you have picked this item up!" % answer)
+                if answer.lower() in ['no']:
+                    print("item is not picked up!")
+
+            def axe(self):
+                self.damage -= 15
+            answer = input("Do you want to pick this up?")
+            print("You have answer %s , you have picked this item up!" % answer)
+            if answer.lower() in ['no']:
+                print("item is not picked up!")
 
         class Tools(Items):
             def __init__(self, inventory):

@@ -7,6 +7,9 @@ class Weapon(Item):
         def __init__(self, name, damage):
             super(Weapon, self).__init__(name)
             self.damage = damage
+            self.baseballbat = damage
+            self.pitchfork = damage
+            self.hammer = damage
 
 
 class Armor(Item):
@@ -43,8 +46,13 @@ class Enemies(Character):
         self.take_damage = damage
         self.inflict_damage = inflict_damage
 
-    def attack(self):
-        print("")
+    @staticmethod
+    def attack():
+        print("You have attacked the player!")
+    if baseballbat >= 15:
+        return "damage"
+    else pitchfork >= 20:
+        return "damage"
 
 
 
