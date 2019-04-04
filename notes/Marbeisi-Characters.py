@@ -6,10 +6,13 @@ class Item(object):
 class Weapon(Item):
         def __init__(self, name, damage):
             super(Weapon, self).__init__(name)
+            self.name = name
             self.damage = damage
-            self.baseballbat = damage
-            self.pitchfork = damage
-            self.hammer = damage
+
+
+baseballbat = Weapon("Base ball bat", 15)
+pitchfork = Weapon("Pitchfork", 20)
+axe = Weapon("Axe", 10)
 
 
 class Armor(Item):
@@ -18,15 +21,21 @@ class Armor(Item):
         self.armor = armor
 
 
+class Character(object):
+    def __init__(self, name):
+        self.name = name
+
+
 class Player(Character):
     def __init__(self, name, description):
-                    self.name = name
-                    self.description = description
-                    self.inventory = inventory
-                    self.health = 100
-                    self.armor = 100
-                    self.weapon = weapon
-                    self.take_damage = damage
+        super(Character, self).__init__(name)
+        self.name = name
+        self.description = description
+        self.inventory = inventory
+        self.health = 100
+        self.armor = 100
+        self.weapon = weapon
+        self.take_damage = damage
 
     def take_damage(self, damage):
         if self.armor.armor_amt > damage:
@@ -40,21 +49,18 @@ class Player(Character):
 
 
 class Enemies(Character):
-    def __init__(self):
+    def __init__(self, name, inflict_damage):
+        super(Enemies, self).__init__(name)
+        self.name = name
         self.health = 100
         self.inventory = []
-        self.take_damage = damage
         self.inflict_damage = inflict_damage
 
-    @staticmethod
-    def attack():
-        print("You have attacked the player!")
-    if baseballbat >= 15:
-        return "damage"
-    else pitchfork >= 20:
-        return "damage"
+    def attack(self):
+        print("enemy slaps you.")
+        Player.health -= self.inflict_damage
 
 
+mike = Enemies("mike", 10)
+mike.attack()
 
-player = Character("")
-enemies = Character("")
