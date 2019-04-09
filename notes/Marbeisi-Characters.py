@@ -27,15 +27,13 @@ class Character(object):
 
 
 class Player(Character):
-    def __init__(self, name, description):
-        super(Character, self).__init__(name)
+    def __init__(self, name, description, health, armor):
+        super(Player, self).__init__(name)
         self.name = name
         self.description = description
-        self.inventory = inventory
-        self.health = 100
-        self.armor = 100
-        self.weapon = weapon
-        self.take_damage = damage
+        self.inventory = []
+        self.health = health
+        self.armor = armor
 
     def take_damage(self, damage):
         if self.armor.armor_amt > damage:
@@ -48,6 +46,9 @@ class Player(Character):
         print("%s attacks %s for %d damage" % self.name % target.name % self.weapon.damage)
 
 
+Player = Player("me", "it's me", 100, 100)
+
+
 class Enemies(Character):
     def __init__(self, name, inflict_damage):
         super(Enemies, self).__init__(name)
@@ -57,10 +58,13 @@ class Enemies(Character):
         self.inflict_damage = inflict_damage
 
     def attack(self):
+        print("health:", Player.health)
         print("enemy slaps you.")
         Player.health -= self.inflict_damage
+        print("mike takes 10 health points")
+        print("your current health level was 100. now it's:")
+        print(Player.health)
 
 
 mike = Enemies("mike", 10)
 mike.attack()
-

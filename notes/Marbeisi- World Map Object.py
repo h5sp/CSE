@@ -11,9 +11,15 @@ class Room(object):
         self.west_north = west_north
         self.east_north = east_north
         self.south_east = south_east
+        self.items = []
+
+
+items = ["baseballbat", "pitchfork", "hammer", "sword", "axe", "nails", "matches", "key", "bandages", "medicine",
+"anesthetic", "scissors"]
 
 
 office = Room("The office")
+office.items = ['cat', 'dog']
 Pasillo_central = Room("This is El Pasillo Central")
 Party_Room1 = Room("This is the party room 1")
 Party_Room2 = Room("This is Party room 2")
@@ -31,7 +37,7 @@ Prize_Corner = Room("This is the prize corner!")
 Kids_Cove = Room("This is the kids cove1")
 Exit = Room("Sorry there is no Exit!")
 
-ofiice.north = Pasillo_central
+office.north = Pasillo_central
 Pasillo_central.west = Party_Room1
 Pasillo_central.east = Party_Room2
 Pasillo_central.north_west = Party_Room3
@@ -47,5 +53,7 @@ Game_Area.east_north = Show_stage
 Show_stage.south = Dining_Room
 Dining_Room.south_east = Prize_Corner
 Prize_Corner.south = Kids_Cove
-kids_cove.north = Prize_Corner
+Kids_Cove.north = Prize_Corner
 Prize_Corner.north_east = Exit
+
+print(office.items)
