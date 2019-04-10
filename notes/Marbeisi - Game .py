@@ -134,15 +134,11 @@ playing = True
 current_node = world_map['OFFICE']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN', 'SOUTH EAST', 'NORTH WEST', 'NORTH EAST', 'SOUTH WEST',
               'EAST NORTH', 'EAST SOUTH']
-short_directions = ['n', 's', 'e','w', 'd', 'sw', 'nw']
 
 while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
     command = input(">_")
-    if command.lower9 in short_directions:
-        pos = short_directions.index(command.lower())
-        command = directions[pos]
     if command.lower() in ['q', 'quit', 'exit']:
         playing = False
     elif command.upper() in directions:
