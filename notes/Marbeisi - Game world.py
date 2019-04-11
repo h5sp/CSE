@@ -134,7 +134,7 @@ playing = True
 current_node = world_map['OFFICE']
 directions = ['NORTH', 'SOUTH', 'EAST', 'WEST', 'UP', 'DOWN', 'SOUTH EAST', 'NORTH WEST', 'NORTH EAST', 'SOUTH WEST',
               'EAST NORTH', 'EAST SOUTH']
-short_directions = ['n', 's', 'e','w', 'd', 'sw', 'nw']
+short_directions = ['n', 's', 'e', 'w', 'd', 'sw', 'nw']
 
 while playing:
     print(current_node['NAME'])
