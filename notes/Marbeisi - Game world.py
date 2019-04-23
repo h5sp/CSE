@@ -140,7 +140,7 @@ while playing:
     print(current_node['NAME'])
     print(current_node['DESCRIPTION'])
     command = input(">_")
-    if command.lower9 in short_directions:
+    if command.lower in short_directions:
         pos = short_directions.index(command.lower())
         command = directions[pos]
     if command.lower() in ['q', 'quit', 'exit']:

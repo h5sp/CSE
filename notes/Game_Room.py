@@ -32,22 +32,21 @@ class Player(object):
 
 
 Office = Room("Office", " This is the office there is a answering machine in front of you")
-Pasillo_Central = ("Pasillo central", "It is very dark in here! ")
-Party_Room1 = ("Party room 1", " This is where the younger kids eat and party ...ITS a big MESS."
-                               "There is also flash light here")
-Party_Room2 = Room("Party room 2", "The door is locked!")
-Party_Room4 = Room("Party room 4", "There are a couple of batteries in here.")
-Party_Room3 = Room("Party room 3", "There is a couple of tables here.")
-Secret_Room = Room("Secret room", "The door to enter is locked! Find the key .")
-Parts_and_services = Room("Parts and services", "This is where all spare equipment is at!")
-Main_Hall = Room("Main hall", "This is the main hall! ")
-Girls_Bathroom = Room("Girls bathroom", "This is the Girls Bathroom")
-Boys_Bathroom = Room("Boys bathroom", "This is the boys bathroom")
-Game_Area = Room("Game area", "This is the Game Area")
-Show_Stage = Room("Show stage", "This is the Show Stage where all the fun is at!!")
-Dinning_Room = Room("Dinning Room", "This is the dinning Room.")
+Pasillo_Central = ("Pasillo Central", "It is very dark in here! ")
+Party_Room1 = ("Party Room 1", " This is where the younger kids eat and party ...ITS a big MESS.")
+Party_Room2 = Room("Party Room 2", "The door is locked!")
+Party_Room3 = Room("Party Room 3", "There are a couple of batteries in here.")
+Party_Room4 = Room("Party Room 4", "There is a couple of tables here.")
+Secret_Room = Room("Secret Room", "The door to enter is locked! Find the key .")
+Parts_and_Services = Room("Parts and Services", "This is where all spare equipment is at!")
+Main_hall = Room("Main hall", "This is the main hall! ")
+Girls_Bathroom = Room("Girls Bathroom", "This is the Girls Bathroom")
+Boys_Bathroom = Room("Boys Bathroom", "This is the boys bathroom")
+Game_Area = Room("Game Area", "This is the Game Area")
+Show_stage = Room("Show stage", "This is the Show Stage where all the fun is at!!")
+Dining_Room = Room("Dining Room", "This is the dinning Room.")
 Prize_Corner = Room("Prize Corner", "This is the prize conner where you pick up your prize!")
-Kids_Cove = Room("Kids cove", "This is Kids cove where you can play at anytime!")
+Kids_Cove = Room("Kids Cove", "This is Kids cove where you can play at anytime!")
 Exit = Room("Exit", "I'M SORRY THERE IS NO EXIT!!")
 
 
@@ -71,8 +70,8 @@ Kids_Cove.north = Prize_Corner
 Prize_Corner.north_east = Exit
 
 playing = True
-current_node = world_map['OFFICE']
-directions = ['north', 'south', 'east', 'west', 'up', 'down', 'south east', 'north west', 'north  east', 'south west',
+current_node = world_map['Office']
+directions = ['north', 'south', 'west', 'east', 'up', 'down', 'south east', 'north west', 'north  east', 'south west',
               'east north', 'east south']
 
 while playing:
