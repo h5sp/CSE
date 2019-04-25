@@ -19,7 +19,6 @@ items = ["baseballbat", "pitchfork", "hammer", "sword", "axe", "nails", "matches
 
 
 office = Room("The office")
-office.items = ['cat', 'dog']
 Pasillo_central = Room("This is El Pasillo Central")
 Party_Room1 = Room("This is the party room 1")
 Party_Room2 = Room("This is Party room 2")
