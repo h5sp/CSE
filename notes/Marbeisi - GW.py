@@ -15,7 +15,7 @@ class Room(object):
 
 
 office = Room("Office", "The office")
-Pasillo_central = Room("Pasillo_central","This is El Pasillo Central")
+Pasillo_central = Room("Pasillo_central", "This is El Pasillo Central")
 Party_Room1 = Room("Party_Room1", "This is the party room 1")
 Party_Room2 = Room("Party_Room2", "This is Party room 2")
 Party_Room3 = Room("Party_Room3", "This is Party room 3")
