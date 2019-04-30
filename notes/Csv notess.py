@@ -31,15 +31,15 @@ def all_16_digits(num: str):
         return False
 
 # with open("Book1.csv") as old_csv:
-#   with open("MyNewFile.csv", 'w', newline='') as new_csv:
-#       print("Writing file.....   ")
-#      reader = csv.reader(old_csv)
-#     writer = csv.writer(new_csv)
-#    for row in reader:
-#       old_number = int(row[0])
-#      new_number = old_number + 1
-#     row[0] = new_number
-#    writer.writerow(row)
+# with open("MyNewFile.csv", 'w', newline='') as new_csv:
+# print("Writing file.....   ")
+# reader = csv.reader(old_csv)
+# writer = csv.writer(new_csv)
+# for row in reader:
+# old_number = int(row[0])
+# new_number = old_number + 1
+# row[0] = new_number
+# writer.writerow(row)
 # print(int(old_number) + 1)
 # print(old_number)
 # print("OK")
@@ -58,6 +58,13 @@ def all_16_digits(num: str):
 # print("Done")
 
 
+def reverse_it(string):
+    print(string[::-1])
+
+
+reverse_it("Hello World")
+
+
 with open("Book1.csv", 'r') as old_csv:
     with open("MyNewFile.csv", 'w', newline='') as new_csv:
         reader = csv.reader(old_csv)
@@ -70,3 +77,16 @@ with open("Book1.csv", 'r') as old_csv:
             if validate(old_num):
                 writer.writerow(row)
 print("Done")
+
+
+def valid_card_number(num: str):
+
+    print(valid_card_number("6702036322882470"))
+
+
+def remove(string):
+    print(S[:-1])
+
+ print(valid_card_number())
+
+
