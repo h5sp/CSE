@@ -78,13 +78,3 @@ with open("Book1.csv", 'r') as old_csv:
                 writer.writerow(row)
 print("Done")
 
-string = 6702036322882470
-
-
-def valid_card_number(num: str):
-    print(string[:-1])
-    print(string[::-1])
-
-
-reverse_it("670203632288247")
-
