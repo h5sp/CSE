@@ -1,9 +1,9 @@
 def valid_card_number(num: str):
 
-    print(valid_card_number("6702036322882470"))
+    print(valid_card_number("1947333886071750"))
 
 
-string = 6702036322882470
+string = 1947333886071750
 
 
 def remove(string):
@@ -12,4 +12,5 @@ def remove(string):
     print(string2[::-1])
 
 
-remove("6702036322882470")
+remove("1947333886071750")
+

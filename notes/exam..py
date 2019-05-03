@@ -6,7 +6,6 @@
 
 
 def valid_card_number(num: str):
-
     print(valid_card_number("6702036322882470"))
 
 
@@ -21,7 +20,10 @@ def remove(string):
 
 remove("6702036322882470")
 
+digits = ['7', '4', '2', '8', '8', '2', '2', '3', '6', '3', '0', '2', '0', '7', '6']
 odd_number = ['1', '3', '5', '7', '9']
 list_num = list(odd_number)
 for index in range(len(odd_number)):
     list_num[index] = int(list_num[index])
+
+print(digits)
