@@ -1,3 +1,4 @@
+
 class Room(object):
     def __init__(self, name, north=None, south=None, west=None, east=None, north_west=None, north_east=None,
                  west_north=None, east_north=None, south_east=None):
