@@ -14,4 +14,4 @@ def remove(string):
 
 remove("1947333886071750")
 
-multiply = (string2) 
+multiply = (string2)
