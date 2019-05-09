@@ -5,5 +5,5 @@ with open("Sales Records.csv") as old_csv:
     for row in reader:
         # old_number = int(row[0]) + 1
         old_number = row[13]
-
-print(row)
+        if row[2] == "Fruits":
+            print(old_number)
