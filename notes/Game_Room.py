@@ -141,7 +141,7 @@ class Items(object):
                     print("item is not picked up!")
 
             def sword(self):
-                self.dmage -= 20
+                self.damage -= 20
                 self.inventory += 7
                 print("You have used your sword")
                 answer = input("Do you want to pick this up?")
@@ -283,4 +283,4 @@ while playing:
         print("Command Not Found")
 
 
-# this is a commment this is not real code  this a warning and if you look down you would get an F
+# this is a comment this is not real code  this a warning and if you look down you would get an F
