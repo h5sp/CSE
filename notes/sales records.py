@@ -2,6 +2,7 @@ import csv
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    list = []
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -14,6 +15,8 @@ with open("Sales Records.csv") as old_csv:
     total = round(total, 2)
     print("The total Fruits profit was:")
     print("${:,}".format(total))
+
+list.append(total)
 
 print("------------")
 
@@ -32,6 +35,8 @@ with open("Sales Records.csv") as old_csv:
     total = round(total, 2)
     print("The total Clothes profit was:")
     print("${:,}".format(total))
+
+list.append(total)
 
 print("------------")
 
@@ -212,4 +217,8 @@ with open("Sales Records.csv") as old_csv:
     total = round(total, 2)
     print("The total Cereal profit was:")
     print("${:,}".format(total))
+
+print("------------")
+
+
 

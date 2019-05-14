@@ -34,8 +34,9 @@ print(new_list[1:1])
 print(new_list[:4])
 
 
-food_list = ["pizza", "hamburger", "tacos", "burritos", "pie", "tamales", "soup", "brownie", "salad", "sushi", "cake", "chicken",
-             "rice", "beans", "cheese", "noodles", "fish", "meat", "carne asada"]
+food_list = ["pizza", "hamburger", "tacos", "burritos", "pie", "tamales", "soup", "brownie", "salad", "sushi", "cake",
+             "chicken","rice", "beans", "cheese", "noodles", "fish", "meat", "carne asada"]
+
 print(len(food_list))
 
 # Adding stuff to a list

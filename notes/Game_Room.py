@@ -165,7 +165,7 @@ class Axe(Weapons):
             print("item is not picked up!")
 
 class Tools(Items):
-    def __init__(self, inventory):
+    def __init__(self, inventory, name, health):
         super(Tools, self).__init__(name, health)
         self.inventory = inventory
 
