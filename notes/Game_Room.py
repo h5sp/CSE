@@ -107,6 +107,7 @@ class Items(object):
         self.energy = 100
         self.health_kit_inventory = 50
 
+
 class Weapons(Items):
     def __init__(self, name, health, damage):
         super(Weapons, self).__init__(name, health)
@@ -114,6 +115,8 @@ class Weapons(Items):
         self.inventory = []
         if health <= damage:
             print("There is damage done!")
+
+
 class Baseballbat(Weapons):
     def __init__(self, damage, inventory):
         super(Baseballbat, self).__init__(damage, inventory)
@@ -124,6 +127,8 @@ class Baseballbat(Weapons):
         print("You have answer %s , you have picked this item up!" % answer)
         if answer.lower() in ['no']:
             print("item is not picked up!")
+
+
 class Pitchfork(Weapons):
     def __init__(self, damage, inventory):
         super(Pitchfork, self).__init__(damage, inventory)
@@ -134,6 +139,8 @@ class Pitchfork(Weapons):
         print("You have answer %s , you have picked this item up!" % answer)
         if answer.lower() in ['no']:
             print("item is not picked up!")
+
+
 class Hammer(Weapons):
     def __init__(self, damage, inventory):
         super(Hammer, self).__init__(damage, inventory)
@@ -144,6 +151,8 @@ class Hammer(Weapons):
         print("You have answer %s , you have picked this item up!" % answer)
         if answer.lower() in ['no']:
             print("item is not picked up!")
+
+
 class Sword(Weapons):
     def __init__(self, damage, inventory):
         super(Sword, self).__init__(damage, inventory)
@@ -155,6 +164,7 @@ class Sword(Weapons):
         if answer.lower() in ['no']:
             print("item is not picked up!")
 
+
 class Axe(Weapons):
     def __init__(self, damage):
         super(Axe, self).__init__(damage)
@@ -163,6 +173,7 @@ class Axe(Weapons):
         print("You have answer %s , you have picked this item up!" % answer)
         if answer.lower() in ['no']:
             print("item is not picked up!")
+
 
 class Tools(Items):
     def __init__(self, inventory, name, health):
@@ -181,8 +192,9 @@ class Tools(Items):
         self.inventory += 1
         print("This has been added to your inventory!")
 
+
 class Energy(object):
-    def __init__(self, energy):
+    def __init__(self, energy, name):
         super(Energy, self).__init__(name)
         self.energy = energy
 
@@ -197,10 +209,12 @@ class Energy(object):
         self.energy += 10
         print("Your energy has been boosted up!")
 
-class HealthKit(self, health):
-    def __init__(self):
+
+class HealthKit(object):
+    def __init__(self, name, health):
         super(HealthKit, self).__init__(name, health)
         self.health_Kit_Inventory = 50
+        self.health = health
 
     def bandages(self):
         self.health_Kit_Inventory += 2
@@ -223,6 +237,7 @@ class HealthKit(self, health):
         print("Your health kit has more stuff now!")
         print("You can use any of this anytime!")
 
+
 class Electronics(object):
     def __init__(self, on):
         self.on = on
@@ -243,26 +258,40 @@ class Electronics(object):
             print("The flashlight is off!")
             self.on = False
 
+
 class Armor(object):
     def __init__(self, protection, damage):
         self.protection = protection
         self.damage = damage
 
+
 class Helmet(Armor):
-    def __init__(self):
-    def equip(self):
+    def __init__(self, damage, health):
+        super(Helmet, self).__init__(damage, health)
+        self.damage = damage
+        self.health = health
         self.damage -= 5
         self.health -= 5
         print("Some damage was done.")
 
-    def chestplate(self, protection):
+
+class Chestplate(Armor):
+    def __init__(self, protection, damage, health):
+        super(Chestplate, self).__init__(damage, health)
         self.protection = protection
+        self.damage = damage
+        self.health = health
         self.damage -= 5
         self.health -= 5
         print("Some damage was done.")
 
-    def shield(self, protection):
+
+class Shield(Armor):
+    def __init__(self, damage, health, protection):
+        super(Shield, self).__init__(damage, health)
+        self.damage = damage
         self.protection = protection
+        self.health = health
         self.damage -= 5
         self.health -= 5
         print("Some damage was done.")

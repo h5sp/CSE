@@ -2,7 +2,8 @@ import csv
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
-    list = []
+    List = []
+    Name = "Fruits"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -16,13 +17,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Fruits profit was:")
     print("${:,}".format(total))
 
-list.append(total)
+List.append(total)
 
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Clothes"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -36,13 +38,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Clothes profit was:")
     print("${:,}".format(total))
 
-list.append(total)
+List.append(total)
 
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Meat"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -56,11 +59,13 @@ with open("Sales Records.csv") as old_csv:
     print("The total Meat profit was:")
     print("${:,}".format(total))
 
+List.append(total)
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Beverages"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -74,11 +79,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Beverages profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Office Supplies"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -92,11 +100,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Office Supplies profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Cosmetics"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -110,11 +121,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Cosmetics profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Snacks"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -128,11 +142,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Snacks profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Personal Care"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -146,11 +163,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Personal Care profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Household"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -164,11 +184,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Household profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Vegetables"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -182,11 +205,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Vegetables profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Baby Food"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -200,11 +226,14 @@ with open("Sales Records.csv") as old_csv:
     print("The total Baby food profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
 with open("Sales Records.csv") as old_csv:
     reader = csv.reader(old_csv)
     total = 0
+    Name = "Cereal"
     for row in reader:
         if row[0] == 'Region':
             continue
@@ -218,7 +247,12 @@ with open("Sales Records.csv") as old_csv:
     print("The total Cereal profit was:")
     print("${:,}".format(total))
 
+List.append(total)
+
 print("------------")
 
+
+print("This is the most profitable is %s ")
+print("${:,}".format(max(List)))
 
 
