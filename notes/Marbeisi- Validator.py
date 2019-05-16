@@ -1,9 +1,8 @@
 def valid_card_number(num: str):
+    print(valid_card_number("6702036322882470"))
 
-    print(valid_card_number("1947333886071750"))
 
-
-string = 1947333886071750
+string = 6702036322882470
 
 
 def remove(string):
@@ -12,6 +11,13 @@ def remove(string):
     print(string2[::-1])
 
 
-remove("1947333886071750")
+remove("6702036322882470")
 
-multiply = (string2)
+
+def multiply(num: str):
+    last_num = int(num[0])
+    if last_num % 3 == 0:
+        return True
+    return False
+
+

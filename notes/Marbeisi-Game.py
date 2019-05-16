@@ -1,4 +1,4 @@
-world_map = {}
+import random
 
 
 class Room(object):
@@ -14,8 +14,8 @@ class Room(object):
 
 
 Office = Room("Office", " This is the office there is a answering machine in front of you")
-Pasillo_Central = ("Pasillo Central", "It is very dark in here! ")
-Party_Room_1 = ("Party Room 1", " This is where the younger kids eat and party ...ITS a big MESS.")
+Pasillo_Central = Room("Pasillo Central", "It is very dark in here! ")
+Party_Room_1 = Room("Party Room 1", " This is where the younger kids eat and party ...ITS a big MESS.")
 Party_Room2 = Room("Party Room 2", "The door is locked!")
 Party_Room3 = Room("Party Room 3", "There are a couple of batteries in here.")
 Party_Room4 = Room("Party Room 4", "There is a couple of tables here.")
@@ -78,7 +78,6 @@ ME = Player("me", 100, Office)
 
 class Enemies(object):
     def __init__(self, name, health, inflict_damage):
-        super(Enemies, self).__init__(name)
         self.name = name
         self.health = health
         self.inventory = []
@@ -119,7 +118,7 @@ class Weapons(Items):
 
 class Baseballbat(Weapons):
     def __init__(self, damage, inventory):
-        super(Baseballbat, self).__init__(damage, inventory)
+        super(Baseballbat, self).__init__(self, damage, inventory)
         self.damage -= 15
         self.inventory += 5
         print("You have swinged the bat!")
@@ -131,7 +130,7 @@ class Baseballbat(Weapons):
 
 class Pitchfork(Weapons):
     def __init__(self, damage, inventory):
-        super(Pitchfork, self).__init__(damage, inventory)
+        super(Pitchfork, self).__init__(self, damage, inventory)
         self.damage -= 20
         self.inventory += 10
         print("you hav picked up the pitchfork!")
@@ -143,7 +142,7 @@ class Pitchfork(Weapons):
 
 class Hammer(Weapons):
     def __init__(self, damage, inventory):
-        super(Hammer, self).__init__(damage, inventory)
+        super(Hammer, self).__init__(self, damage, inventory)
         self.damage -= 10
         self.inventory += 4
         print("you have used the hammer!")
@@ -155,7 +154,7 @@ class Hammer(Weapons):
 
 class Sword(Weapons):
     def __init__(self, damage, inventory):
-        super(Sword, self).__init__(damage, inventory)
+        super(Sword, self).__init__(self, damage, inventory)
         self.damage -= 20
         self.inventory += 7
         print("You have used your sword")
@@ -166,9 +165,10 @@ class Sword(Weapons):
 
 
 class Axe(Weapons):
-    def __init__(self, damage):
-        super(Axe, self).__init__(damage)
+    def __init__(self, damage, inventory):
+        super(Axe, self).__init__(self, damage, inventory)
         self.damage -= 15
+        self.inventory += 10
         answer = input("Do you want to pick this up?")
         print("You have answer %s , you have picked this item up!" % answer)
         if answer.lower() in ['no']:
@@ -296,30 +296,34 @@ class Shield(Armor):
         self.health -= 5
         print("Some damage was done.")
 
-    if armor >= damage:
-        print("No damage is done")
-    elif damage >= armor:
-        print("There is %s damage done! " % damage)
+    @staticmethod
+    def defend():
+        damage_took = mike.inflict_damage
+        if Enemies.attack:
+            print("You took damage:", damage_took)
+            if damage_took == 0:
+                print("no damage was done.")
+            elif damage_took >= 1:
+                print("damage was done.")
+                ME.health -= damage_took
 
 
 playing = True
-current_node = world_map['Office']
+
 directions = ['north', 'south', 'west', 'east', 'up', 'down', 'south east', 'north west', 'north  east', 'south west',
               'east north', 'east south']
 
 while playing:
-    print(current_node['NAME'])
-    print(current_node['DESCRIPTION'])
+    print("-", ME.current_location.name)
+    print("-", ME.current_location.description)
     command = input(">_")
-    if command.lower() in ['q', 'quit', 'exit']:
+    if command.lower() in ['q', 'quit', 'exit', 'ee']:
         playing = False
-    elif command.upper() in directions:
-        try:
-            room_name = current_node['PATHS'][command.upper()]
-            current_node = world_map[room_name]
-        except KeyError:
-            print("I cant go that way")
-    else:
-        print("Command Not Found")
-
-
+        if command.lower() in directions:
+            try:
+                room_name = getattr(ME.current_location, command.lower())
+                ME.move(room_name)
+            except KeyError:
+                print("Error: Can't go that way")
+        else:
+            print("cant go that way")
