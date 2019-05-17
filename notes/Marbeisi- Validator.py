@@ -14,10 +14,6 @@ def remove(string):
 remove("6702036322882470")
 
 
-def multiply(num: str):
-    last_num = int(num[0])
-    if last_num % 3 == 0:
-        return True
-    return False
-
+def multiply_by_2(string):
+    old_num = ['1', '3', '5', '7', '9', '11']
 
