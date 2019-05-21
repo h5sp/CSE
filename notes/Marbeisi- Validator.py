@@ -1,19 +1,29 @@
-def valid_card_number(num: str):
-    print(valid_card_number("6702036322882470"))
+def validate(num: str):
+    print(validate("6702036322882470"))
 
 
 string = 6702036322882470
 
 
 def remove(string):
+    print("1.")
     string2 = (string[:-1])
     print(string2)
+    print("-----------")
+    print("2.")
+
     print(string2[::-1])
 
 
 remove("6702036322882470")
 
+print("-----------")
 
-def multiply_by_2(string):
-    old_num = ['1', '3', '5', '7', '9', '11']
+print("3.")
 
+
+def multiply(num: str):
+    first_num = int(num[0])
+    if first_num % 3 == 0:
+        return True
+    return False

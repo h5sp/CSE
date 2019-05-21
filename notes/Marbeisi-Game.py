@@ -1,8 +1,7 @@
-import random
-
-
 class Room(object):
-    def __init__(self, name, description, north=None, south=None, east=None, west=None):
+    def __init__(self, name, description, north=None, south=None, east=None, west=None, south_east=None,
+                 north_west=None, north_east=None, south_west=None, east_north=None, east_south=None):
+
         self.name = name
         self.description = description
         self.north = north
@@ -11,6 +10,12 @@ class Room(object):
         self.west = west
         self.items = []
         self.characters = []
+        self.south_east = south_east
+        self.north_east = north_east
+        self.north_west = north_west
+        self.south_west = south_west
+        self.east_north = east_north
+        self.east_south = east_south
 
 
 Office = Room("Office", " This is the office there is a answering machine in front of you")
@@ -310,14 +315,14 @@ class Shield(Armor):
 
 playing = True
 
-directions = ['north', 'south', 'west', 'east', 'up', 'down', 'south east', 'north west', 'north  east', 'south west',
-              'east north', 'east south']
+directions = ['north', 'south', 'west', 'east', 'up', 'down', 'south_east', 'north_west', 'north_east', 'south_west',
+              'east_north', 'east_south']
 
 while playing:
     print("-", ME.current_location.name)
     print("-", ME.current_location.description)
     command = input(">_")
-    if command.lower() in ['q', 'quit', 'exit', 'ee']:
+    if command.lower() in ['q', 'quit', 'exit', 'e']:
         playing = False
         if command.lower() in directions:
             try:
