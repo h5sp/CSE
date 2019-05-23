@@ -1,5 +1,5 @@
 class Room(object):
-    def __init__(self, name, description, north=None, south=None, east=None, west=None, south_east=None,
+    def __init__(self, name, description,  north=None, south=None, east=None, west=None, south_east=None,
                  north_west=None, north_east=None, south_west=None, east_north=None, east_south=None):
 
         self.name = name
@@ -18,8 +18,8 @@ class Room(object):
         self.east_south = east_south
 
 
-Office = Room("Office", " This is the office there is a answering machine in front of you")
-Pasillo_Central = Room("Pasillo Central", "It is very dark in here! ")
+Office = Room("Office", " This is the office there is a answering machine in front of you", 'Pasillo Central')
+Pasillo_Central = Room("Pasillo Central", "It is very dark in here!", None, "Office")
 Party_Room_1 = Room("Party Room 1", " This is where the younger kids eat and party ...ITS a big MESS.")
 Party_Room2 = Room("Party Room 2", "The door is locked!")
 Party_Room3 = Room("Party Room 3", "There are a couple of batteries in here.")
@@ -314,9 +314,9 @@ class Shield(Armor):
 
 
 playing = True
-
 directions = ['north', 'south', 'west', 'east', 'up', 'down', 'south_east', 'north_west', 'north_east', 'south_west',
               'east_north', 'east_south']
+
 
 while playing:
     print("-", ME.current_location.name)

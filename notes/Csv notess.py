@@ -78,3 +78,22 @@ with open("Book1.csv", 'r') as old_csv:
                 writer.writerow(row)
 print("Done")
 
+playing = True
+
+directions = ['north', 'south', 'west', 'east', 'up', 'down', 'south_east', 'north_west', 'north_east', 'south_west',
+              'east_north', 'east_south']
+
+while playing:
+    print("-", ME.current_location.name)
+    print("-", ME.current_location.description)
+    command = input(">_")
+    if command.lower() in ['q', 'quit', 'exit', 'e']:
+        playing = False
+        if command.lower() in directions:
+            try:
+                room_name = getattr(ME.current_location, command.lower())
+                ME.move(room_name)
+            except KeyError:
+                print("Error: Can't go that way")
+        else:
+            print("cant go that way")

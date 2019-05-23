@@ -27,3 +27,4 @@ def multiply(num: str):
     if first_num % 3 == 0:
         return True
     return False
+

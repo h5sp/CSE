@@ -1,7 +1,7 @@
 import csv
 
-    def validate(num: int):
-        num = list(num)
+def validate(num: int):
+    num = list(num)
     if len(num) == 16:
         last_num = num[15]
         num.pop(15)
@@ -15,6 +15,7 @@ import csv
     if int(odds[o]) >= 10:
         odds[o] = int(odds[o]) - 9
     o += 1
+
     else:
     o += 1
     oddadd = int(odds[0]) + int(odds[1]) + int(odds[2]) + int(odds[3]) + int(odds[4]) + int(odds[5]) + int(odds[6])\
@@ -25,21 +26,19 @@ import csv
         return True
     else:
         return False
-return False
+
 with open("Book1.csv", "r") as old_csv:
         with open("File.csv", "w") as new_csv:
-
             with open("FakeFile.csv", "w") as fake_csv :
-
-
-    reader = csv.reader(old_csv)
-    writer = csv.writer(new_csv)
-    writer2 = csv.writer(fake_csv)
-    print("Processing...")
-    for row in reader:
-        old_number = row[0]
+ reader = csv.reader(old_csv)
+writer = csv.writer(new_csv)
+writer2 = csv.writer(fake_csv)
+print("Processing...")
+for row in reader:
+    old_number = row[0]
     if validate(old_number) is True:
         writer.writerow(row)
     if validate(old_number) is False:
         writer2.writerow(row)
 print("Done!")
+
